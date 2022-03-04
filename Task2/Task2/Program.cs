@@ -7,10 +7,11 @@ namespace Task2
         static void Main(string[] args)
         {
             int count = 0;
-            for (int i = 1; i <= 200; i++)
+            int m = 15;
+            for (int n = 3; n <=m ; n++)
             {
                
-                if (i % 7 ==0 )
+                if (n % 7 ==0 )
                 {
 
                     count++;
